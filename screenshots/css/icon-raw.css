@@ -1,0 +1,20 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 25px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* <!-- main axis(원래가로)랑 cross axis(원래세로)가 바뀜->main axis가 세로축, cross axis가 가로축됨-> 가로축 변경해줘얗하니까 align-items: 사용하기 --> */
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}

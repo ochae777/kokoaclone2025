@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  left: 23px;
+  bottom: 16px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: none;
+  }
+}
